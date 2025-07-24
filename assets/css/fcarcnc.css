@@ -1,5 +1,4 @@
-﻿
-p {
+﻿p {
     margin: 10px 0px 10px 0px;
 }
 
@@ -34,13 +33,18 @@ table {
     border-bottom-width: 10px;
 }
 
-.hmembercs, .membercs {
+.hmembercs,
+.membercs {
     border-left-style: solid;
     border-left-width: thin;
 
 }
 
-.hmembername, .hmembercs, .hmembercity, .membercity, .hmemberweb {
+.hmembername,
+.hmembercs,
+.hmembercity,
+.membercity,
+.hmemberweb {
     padding-left: 20px;
     border-left-style: solid;
     border-left-width: thin;
@@ -49,7 +53,8 @@ table {
     border-bottom-width: thin;
 }
 
-.hmemberweb, .memberweb {
+.hmemberweb,
+.memberweb {
     padding-left: 20px;
     border-left-style: solid;
     border-left-width: thin;
@@ -85,7 +90,8 @@ table {
     font-size: large;
 }
 
-#menu li, #headerright li {
+#menu li,
+#headerright li {
     display: inline;
     padding-right: 15px;
     padding-left: 15px;
@@ -96,7 +102,8 @@ table {
     text-decoration: underline;
 }
 
-#menu a, #headerright a {
+#menu a,
+#headerright a {
     text-decoration: none;
     color: black;
 }
@@ -108,12 +115,12 @@ table {
     color: black;
 }
 
-    #footer a:hover {
-        color: black;
-        text-decoration: underline;
-        border-style: none;
-        border-width: 0px;
-    }
+#footer a:hover {
+    color: black;
+    text-decoration: underline;
+    border-style: none;
+    border-width: 0px;
+}
 
 #riroc a:hover {
     color: black;
@@ -226,7 +233,9 @@ table {
     line-height: 18px;
 }
 
-.product_2, .product_3, .product_4 {
+.product_2,
+.product_3,
+.product_4 {
     border: 1px dashed #000000;
     width: 231px;
     height: 275px;
@@ -243,15 +252,21 @@ table {
     line-height: 18px;
 }
 
-    .product_1 a:hover, .product_4 a:hover, .product_4 a:hover, .product_4 a:hover {
-        color: black;
-        text-decoration: underline;
-    }
+.product_1 a:hover,
+.product_4 a:hover,
+.product_4 a:hover,
+.product_4 a:hover {
+    color: black;
+    text-decoration: underline;
+}
 
-    .product_1 a, .product_2 a, .product_3 a, .product_4 a {
-        text-decoration: none;
-        color: black;
-    }
+.product_1 a,
+.product_2 a,
+.product_3 a,
+.product_4 a {
+    text-decoration: none;
+    color: black;
+}
 
 .eventimage {
     text-align: center;
@@ -336,7 +351,8 @@ table {
     border-left-color: #000000;
 }
 
-.detail, .faqdetail {
+.detail,
+.faqdetail {
     border-width: 0px;
     border-style: none;
     margin: 0px;
@@ -487,24 +503,23 @@ table {
     color: #000000;
 }
 
-    #faq ul ol {
-    }
+#faq ul ol {}
 
-    #faq ul li {
-        list-style-type: none;
-        background-image: url(https://fcarc.net/assets/images/icons/faq.png);
-        background-repeat: no-repeat;
-        background-position: 0px 5px;
-        padding-left: 60px;
-    }
+#faq ul li {
+    list-style-type: none;
+    background-image: url(https://fcarc.net/assets/images/icons/faq.png);
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    padding-left: 60px;
+}
 
-        #faq ul li p {
-            padding: 8px;
-        }
+#faq ul li p {
+    padding: 8px;
+}
 
-            #faq ul li p em {
-                display: block;
-            }
+#faq ul li p em {
+    display: block;
+}
 
 #commonmeasurements {
     border: 1px solid #000000;
@@ -515,12 +530,12 @@ table {
     font-size: medium;
 }
 
-    #commonmeasurements td {
-        border: 1px solid #000000;
-        background-color: #FFFFFF;
-        color: #000000;
-        text-align: center;
-    }
+#commonmeasurements td {
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+}
 
 .cmtitle {
     padding: 0px;
@@ -531,8 +546,7 @@ table {
     text-align: center;
 }
 
-.cmcontent {
-}
+.cmcontent {}
 
 #dogimage {
     width: 804px;
@@ -542,27 +556,25 @@ table {
     padding-bottom: 20px;
 }
 
-#howtomeasure {
+#howtomeasure {}
+
+#howtomeasure ul ol {}
+
+#howtomeasure ul li {
+    list-style-type: none;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    padding-left: 20px;
 }
 
-    #howtomeasure ul ol {
-    }
+#howtomeasure ul li p {
+    padding: 8px;
+}
 
-    #howtomeasure ul li {
-        list-style-type: none;
-        background-image: none;
-        background-repeat: no-repeat;
-        background-position: 0px 5px;
-        padding-left: 20px;
-    }
-
-        #howtomeasure ul li p {
-            padding: 8px;
-        }
-
-            #howtomeasure ul li p em {
-                display: block;
-            }
+#howtomeasure ul li p em {
+    display: block;
+}
 
 #comingsoon {
     border: 20px double #CCCCCC;
@@ -589,69 +601,72 @@ table {
     font-family: 'Open Sans', sans-serif;
 }
 
-    #contact-form input,
-    #contact-form select,
-    #contact-form textarea,
-    #contact-form label {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 18px;
-        margin-bottom: 2px;
-        font-weight: bold;
-    }
+#contact-form input,
+#contact-form select,
+#contact-form textarea,
+#contact-form label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
 
-    #contact-form input,
-    #contact-form select,
-    #contact-form textarea {
-        width: 790PX;
-        border: 1px solid #CC00CC;
-        margin-bottom: 20px;
-        padding: 4px;
-        font-weight: normal;
-    }
+#contact-form input,
+#contact-form select,
+#contact-form textarea {
+    width: 790PX;
+    border: 1px solid #CC00CC;
+    margin-bottom: 20px;
+    padding: 4px;
+    font-weight: normal;
+}
 
-        #contact-form input:focus, #contact-form select:focus, #contact-form textarea:focus {
-            border: 1px solid #CC00CC;
-            background-color: #FFFF99;
-        }
+#contact-form input:focus,
+#contact-form select:focus,
+#contact-form textarea:focus {
+    border: 1px solid #CC00CC;
+    background-color: #FFFF99;
+}
 
-    #contact-form textarea {
-        height: 150px;
-        resize: none;
-    }
+#contact-form textarea {
+    height: 150px;
+    resize: none;
+}
 
-    #contact-form label {
-        display: block;
-    }
+#contact-form label {
+    display: block;
+}
 
-    #contact-form .required {
-        color: #F00;
-    }
+#contact-form .required {
+    color: #F00;
+}
 
-    #contact-form #submitbutton {
-        width: 200px;
-        background-color: #333;
-        color: #FFF;
-        border: none;
-        display: block;
-        float: right;
-        margin-bottom: 0px;
-        margin-right: 6px;
-        background-color: #CCCCCC;
-        -moz-border-radius: 8px;
-    }
+#contact-form #submitbutton {
+    width: 200px;
+    background-color: #333;
+    color: #FFF;
+    border: none;
+    display: block;
+    float: right;
+    margin-bottom: 0px;
+    margin-right: 6px;
+    background-color: #CCCCCC;
+    -moz-border-radius: 8px;
+}
 
-        #contact-form #submitbutton:hover {
-            background-color: #006699;
-        }
+#contact-form #submitbutton:hover {
+    background-color: #006699;
+}
 
-        #contact-form #submitbutton:active {
-            position: relative;
-            top: 1px;
-        }
+#contact-form #submitbutton:active {
+    position: relative;
+    top: 1px;
+}
 
 
 /* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */
-input:required, textarea:required {
+input:required,
+textarea:required {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     -o-box-shadow: none;
@@ -667,13 +682,38 @@ input:required, textarea:required {
 }
 
 /* mozilla */
-input:-moz-placeholder, textarea:-moz-placeholder {
+input:-moz-placeholder,
+textarea:-moz-placeholder {
     color: #CCC;
     font-style: italic;
 }
 
 /* ie (faux placeholder) */
-input.placeholder-text, textarea.placeholder-text {
+input.placeholder-text,
+textarea.placeholder-text {
     color: #CCC;
     font-style: italic;
+}
+
+.supplierstitle {
+    text-align: center;
+    font-size: x-large;
+}
+
+table.MsoTableGrid {
+    border: solid windowtext 1.0pt;
+    font-size: 11.0pt;
+    font-family: "Calibri", sans-serif;
+}
+
+.suppliersentry {
+    width: 328px;
+}
+
+.abouttitle {
+    text-align: center;
+}
+
+.aboutussubtitle {
+    font-size: x-large;
 }
