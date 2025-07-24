@@ -664,6 +664,10 @@ table {
     line-height: 1.35; 
 }
 
+.detail {
+    line-height: 1.35; 
+}
+
 input:required,
 textarea:required {
     -moz-box-shadow: none;
