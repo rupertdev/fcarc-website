@@ -22,6 +22,12 @@ body {
 img {
     border-width: 0px;
     border-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+}
+
 }
 
 table {
@@ -194,6 +200,9 @@ table {
     width: 1024px;
     height: 200px;
     visibility: hidden;
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
 }
 
 .riroc {
