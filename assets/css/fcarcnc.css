@@ -28,7 +28,7 @@ img {
     text-align: center;
 }
 
-}
+
 
 table {
     border-collapse: collapse;
@@ -416,3 +416,4 @@ table {
         width: calc(100% - 10px);
     }
 }
+
